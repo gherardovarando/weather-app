@@ -1,0 +1,23 @@
+{
+  "name": "weather-app",
+  "version": "0.0.1",
+  "description": "weather app with led notification pi zero",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gherardovarando/weather-app.git"
+  },
+  "author": "gherardo varando",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gherardovarando/weather-app/issues"
+  },
+  "homepage": "https://github.com/gherardovarando/weather-app#readme",
+  "dependencies": {
+    "node-weather": "git+https://github.com/gherardovarando/node-weather.git",
+    "rpi-gpio": "^0.8.1"
+  }
+}
